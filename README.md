@@ -2,6 +2,8 @@
 
 GAMEpie is a retro game emulation system for Raspberry Pi, using a mini LCD screen and speaker. Emulation is provided by libretro cores.
 
+![GAMEpie photo](gamepie.jpg)
+
 ## Dependencies
 
 Nintendo controller support via the [dkms-hid-nintendo](https://github.com/nicman23/dkms-hid-nintendo) kernel module. (Requires the `raspberrypi-kernel-headers` package).
@@ -12,7 +14,7 @@ Needs the `cmake libevdev-dev libclang-dev libsdl2-dev` packages to compile Rust
 
 * Raspberry Pi Zero 2 W
 * Screen + Audio: [Pirate Audio Speaker](https://shop.pimoroni.com/products/pirate-audio-mini-speaker?variant=31189753692243)
-  - plus header extension to fix case
+  - plus header extension to fit case
 * Battery charger: [Adafruit PowerBoost 500](https://www.adafruit.com/product/1944)
 * Battery: [500mAH LiPo](https://shop.pimoroni.com/products/lipo-battery-pack?variant=20429082055)
 * [Power switch](https://shop.pimoroni.com/products/lilypad-e-sewing-protosnap?variant=1563028488202)
