@@ -1,0 +1,15 @@
+[package]
+name = "gamepie-controller"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+evdev-rs = "0.5"
+glob = "0.3"
+log = "0.4"
+libc = "0.2"
+num-traits = "0.2"
+
+gamepie-libretrobind = { path = "../gamepie-libretrobind" }

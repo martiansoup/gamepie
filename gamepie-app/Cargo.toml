@@ -1,0 +1,20 @@
+[package]
+name = "gamepie-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+lazy_static = "1.4"
+libloading = "0.7"
+ctrlc = "3.2"
+rppal = "0.13"
+num = "0.4"
+
+gamepie-core = { path = "../gamepie-core" }
+gamepie-audio = { path = "../gamepie-audio" }
+gamepie-libretrobind = { path = "../gamepie-libretrobind" }
+gamepie-libretro = { path = "../gamepie-libretro" }
+gamepie-screen = { path = "../gamepie-screen" }

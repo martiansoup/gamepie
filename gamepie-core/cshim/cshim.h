@@ -1,0 +1,1 @@
+void gamepie_log_shim(unsigned level, const char *fmt, ...);

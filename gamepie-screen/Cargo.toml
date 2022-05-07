@@ -1,0 +1,15 @@
+[package]
+name = "gamepie-screen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-graphics = "0.7.1"
+lazy_static = "1.4"
+tinybmp = "0.3.1"
+log = "0.4"
+profont = "0.5.0"
+toml = "0.5.8"
+
+gamepie-core = { path = "../gamepie-core" }
+gamepie-screenbind = { path = "../gamepie-screenbind" }

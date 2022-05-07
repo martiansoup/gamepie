@@ -1,0 +1,13 @@
+[workspace]
+
+members = [
+  "gamepie-app",
+  "gamepie-libretrobind",
+  "gamepie-screenbind",
+  "gamepie-core",
+  "gamepie-controller",
+  "gamepie-audio",
+  "gamepie-screen",
+  "gamepie-libretro",
+  "main"
+]
